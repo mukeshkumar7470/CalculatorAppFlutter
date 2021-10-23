@@ -125,7 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
     } else if(buttonText == "."){
 
       if(_output.contains(".")){
-        print("Already contains a decimals");
+        print("Already conatains a decimals");
         return;
 
       } else {
