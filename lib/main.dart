@@ -1,3 +1,5 @@
+import 'package:calculator_app_flutter/pages/calculator_two.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:calculator_app_flutter/pages/home_page.dart';
 
@@ -15,9 +17,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Calculator',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+         primarySwatch: Colors.indigo,
       ),
-      home: const MyHomePage(title: 'Calculator'),
+     // home: const MyHomePage(title: 'Calculator'),
+      home: const CalculatorTwo(),
     );
   }
 }
